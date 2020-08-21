@@ -1,17 +1,28 @@
 @charset "utf-8";
 
 /*タイトル*/
-h1 {
-	font-size: 30px;
-	padding: 0.5em;
-	color: #010101;
-	background: rgb(243, 132, 95);
-	border-bottom: solid 3px #FF0000;
-	text-align: left;
+.logo {
+	clear: both;
 }
-
+.toppege {
+	overflow: hidden;
+	border-bottom: solid 7px rgb(252, 124, 5)
+}
+.tytle {
+	float: left;
+	margin: 8px 0 8px 8px;
+	padding: 8px;
+}
+.subtytle {
+	font-size: 15px;
+	margin: 8px 0 30px 8px;
+    padding: 8px;
+}
 /*トップページ*/
-
+section {
+	padding-bottom: 200px;
+	border-bottom: 7px rgb(218, 53, 53);
+}
 .ul {
 	list-style-type: none;
 }
@@ -52,6 +63,7 @@ h1 {
 }                                              
 .foreigner {
 	clear: both;
+
 }
 a:hover img {
 	border: 1px solid #ccc;
@@ -62,6 +74,16 @@ a:active img {
 h2 {
 	border-bottom: solid 3px rgb(252, 124, 5)
 }
+.open {
+	border-top: solid 7px rgb(252, 124, 5);
+	background-color: rgb(252, 124, 5);
+	text-align : center;
+	padding: 0px
+}
+.open1 {
+	font-size: 30px;	
+}
+
 /*ここからサイバーIT共通*/
 
 th {
@@ -105,6 +127,7 @@ td {
 
 #cybertable {
 	background-color: rgb(80, 162, 240);
+	margin-top: 20px ;
 }
 
 /*ここからITスペシャリスト*/
@@ -112,6 +135,7 @@ td {
 
 #ittable {
 	background-color: rgb(48, 48, 185);
+	margin-top: 20px ;
 }
 .itgaiyou {
 	font-size: 15px;
