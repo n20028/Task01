@@ -81,11 +81,25 @@ h2 {
 	padding: 0px
 }
 .open1 {
-	font-size: 30px;	
+	font-size: 30px;
+	font-weight: bolder;
+	color: #FFF;	
 }
-
+.kattop {
+	text-align: center;
+}
+.naiyou {
+	padding-bottom: 100px;
+	border-bottom: solid 3px rgb(252, 124, 5);
+}
 /*ここからサイバーIT共通*/
-
+.last {
+	border-top:solid 3px rgb(252, 124, 5);
+	border-bottom: solid 3px rgb(252, 124, 5);
+}
+.lastlist1 {
+	font-size: 20px;
+}
 th {
 	font-size: 20px;
 	padding: 0px;
@@ -104,12 +118,19 @@ td {
 	float: left;
 	margin: 8px 100px 8px 8px;
 	padding: 8px;
+
+}
+.tableright {
+	padding-left: 30px;
 }
 /*ここからサイバーセキュリティ科*/
-
+.tabletop {
+	text-align: left;
+}
 .cyber_12 {
 	clear: both;
 	overflow: hidden;
+	padding: 30px;
 }
 .cyber_1 {
 	float: left;
@@ -126,14 +147,26 @@ td {
 }
 
 #cybertable {
+	width: 300px;
+	height: 120px;
 	background-color: rgb(80, 162, 240);
 	margin-top: 20px ;
 }
 
+
+
 /*ここからITスペシャリスト*/
 
-
+.tabletopit {
+	text-align: left;
+	color: #FFF;
+}
+.itcolor {
+	color:#FFF
+}
 #ittable {
+	width: 300px;
+	height: 120px;
 	background-color: rgb(48, 48, 185);
 	margin-top: 20px ;
 }
@@ -143,6 +176,8 @@ td {
 .it_12 {
 	clear: both;
 	overflow: hidden;
+	padding: 30px;
+
 }
 .it_1 {
 	float: left;
@@ -156,4 +191,7 @@ td {
     margin: 8px 0 8px 8px;
     padding: 8px;
 	width: 500px;
+}
+.itcali {
+	list-style: none;
 }
